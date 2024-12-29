@@ -69,12 +69,11 @@ button {
     cursor: pointer;
     width: max-content;
     font-size:1rem;
-    font-family:"Mona Sans",sans-serif;
+    font-family:var(--font);
     border:none;
     border-radius:5px;
     font-size:0.85rem;
     height:31px;
-    font-weight:700;
     margin: 0px;
     margin-bottom: 3px;
     text-align: center;
@@ -83,6 +82,10 @@ button {
     cursor: pointer;
     display: table-cell;
     vertical-align: middle;
+}
+button:hover{
+    transition: all .2s ease-out;
+    transform: scale(1.05);
 }
 /*text*/
 p{
@@ -100,6 +103,12 @@ a:hover{
     color:var(--accent);
     transition: 0.6s ease;
     -webkit-transition: 0.6s ease
+}
+#github{
+    text-decoration: none;
+}
+#github:hover{
+    color:var(--text);
 }
 textarea{
     background-color: var(--darker);
