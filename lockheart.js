@@ -63,7 +63,7 @@ tag.insertAdjacentHTML('afterbegin', `
     }
     </style>
     <div id="lockheartlabel">
-      <a href="https://baileylockheart.github.io/webring/" title="lockheart"><button id="lockheartbtn">Lockheart&lt;3</button></a>
+      <a href="https://baileylockheart.github.io/webring/" title="Made by Bailey Lockheart"><button id="lockheartbtn">Lockheart&lt;3</button></a>
     </div>
 `);
 
