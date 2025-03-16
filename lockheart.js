@@ -32,15 +32,15 @@ function getImageHtmlCode() {
 tag.insertAdjacentHTML('afterbegin', `
     <style>
     @font-face {
-      font-family: "Perfect DOS";
-      src: url("https://file.garden/ZrZSgsrYfQXsO7QH/fonts/PerfectDOS.ttf");
+      font-family: "Comic Mono";
+      src: url("https://file.garden/ZrZSgsrYfQXsO7QH/fonts/ComicMono-Bold.ttf");
     }
     #lockheartbtn{
       background-color: #804EBD;
       color: #F7EBF7;
       width: 88px;
       height:15px;
-      font-family: "Perfect DOS", serif;
+      font-family: "Comic Mono", serif;
       font-size: 14px !important;
       font-weight: 500;
       letter-spacing: -1px;
