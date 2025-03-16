@@ -54,7 +54,8 @@ tag.insertAdjacentHTML('afterbegin', `
       text-decoration:none
     }
     #lockheartlink img{
-      border-radius:0px !important
+      border-radius:0px !important;
+      margin:3px
     }
     #lockheartlink button:hover{
       transition: none;
