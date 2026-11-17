@@ -4,7 +4,7 @@ var imageUrls = [ // remember to put a comma before new entries!
     "https://file.garden/ZrZSgsrYfQXsO7QH/buttons/portfolio-btn.png"
   , "https://file.garden/ZrZSgsrYfQXsO7QH/buttons/lockheartlove_button.png"
   , "https://file.garden/ZrZSgsrYfQXsO7QH/buttons/pastelprince88x31-2.png"
-  , "https://file.garden/ZrZSgsrYfQXsO7QH/buttons/baileylockheart.gif"
+  , "https://file.garden/ZrZSgsrYfQXsO7QH/buttons/baileylockheartbtn.png"
   , "https://file.garden/ZrZSgsrYfQXsO7QH/buttons/maddsBbutton.png"
   , "https://file.garden/ZrZSgsrYfQXsO7QH/buttons/puppypilled-button.png"
   , "https://file.garden/ZrZSgsrYfQXsO7QH/buttons/st0rm-button.png"
@@ -55,7 +55,8 @@ tag.insertAdjacentHTML('afterbegin', `
     }
     #lockheartlink img{
       border-radius:0px !important;
-      margin:3px
+      margin:3px;
+      width:88px
     }
     #lockheartlink button:hover{
       transition: none;
